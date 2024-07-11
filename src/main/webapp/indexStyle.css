@@ -1,0 +1,486 @@
+@charset "ISO-8859-1";
+
+
+body{
+    margin: 0px;
+    min-height: 100vh;
+}
+.Ts{
+    background-color:#FFF8F1;
+}
+
+.logo_image_nav{
+    height: 8vh;
+}
+
+.inside_booking_form{
+    display: flex;
+}
+.booking_details_form{
+    border: none;
+    background-color: transparent;
+    color:goldenrod;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    margin-left: 40px;
+}
+.top_luxury_car_section_heading1{
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: goldenrod;
+    -webkit-text-stroke: .4px red;
+}
+
+.top_luxury_car_section_heading{
+    margin-left: 50px;
+    /* margin-top: 65px; */
+    font-family: 'Inter';
+    font-weight: bold;
+    color: goldenrod;
+    -webkit-text-stroke: .4px red;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 32px;
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar1 a{
+    position: relative;
+    font-size: 18px;
+    color: goldenrod ;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 45px;
+}
+.navbar1 a::before{
+    content: '';
+    position: absolute;
+    top:100%;
+    left:0;
+    width:0;
+    height:2px;
+    background: goldenrod;
+    transition: .3s;
+}
+.navbar1 a:hover::before {
+    width: 100%;
+    text-decoration: none;
+}
+
+
+.luxury_car_div{
+    border-style: solid;
+    color:black;
+    border-width: 2px;
+    border-radius: 7px;
+    width: 410px;
+    height:640px;
+    padding: 8px;
+    margin: 20px;
+    box-shadow: 0px 0px 15px 2px #CCA57E;
+}
+/* .luxury_car_div img{
+    height:28vh;
+} */
+.top_luxury_cars_div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color:#FFF8F1;
+   
+}
+
+.luxury_car_heading{
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-top: 9px;
+    font-size: 35px;
+}
+.luxury_car_paragraph{
+    font-family: 'Inter';
+    margin-top: 18px;
+}
+.luxury_car_paragraph1{
+    font-family:'Inter';
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 23px;
+}
+
+.cp_button{
+    padding: 6px 16px;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid var(--yellow);
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    /* margin-top: 40px; */
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.cp_button2{
+    padding: 6px 16px;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid var(--yellow);
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    /* margin-top: 40px; */
+    margin-left: 20px;
+}
+.cp_button img{
+    height: 20px;
+}
+.cp_button2 img{
+    height: 25px;
+}
+.luxury_car_book_btn{
+    padding: 5px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:hsl(188, 78%, 41%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 180px;
+}
+.luxury_car_book_btn:hover{
+    background-color:hsl(188, 78%, 31%);
+}
+.align-div{
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.align-div img{
+    height: 20px;
+    margin-left: 20px;
+}
+.main_car_img{
+    height:28vh;
+}
+.star3_luxury{
+    height:35px;
+}
+.why_background_img_div{
+    /* background-color: blue; */
+    background-image: url("src/background_bmw.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 25vw;
+    margin: 0px 50px 0px 150px;
+}
+.why_people_choose_us{
+    background-color: white;
+    box-shadow: 0px 0px 15px 2px #CCA57E;
+    height: 80vh;
+    width: 40vw;
+    margin: 0px 10px 0px 90px;
+}
+.why_main_div{
+    display: flex;
+}
+.why_hr_line{
+    background-color: goldenrod;
+    border-width: 10px;
+    width:110px;
+    border-radius: 10px;
+
+}
+.why_heading{
+    color: goldenrod;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0px 0px 0px 40px;
+}
+.why_paragraph{
+    margin: 10px 40px 10px 40px;
+    color: gray;
+    font-family: 'Inter';
+    font-size: 1.3rem;
+}
+
+.driver_image{
+    height: 10vh;
+    margin-left: 25px;
+}
+.why_choose_us_driver_container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.driver_heading{
+    color:#162f62;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 1.9rem;
+    margin: 0px 0px 0px 40px;
+}
+.diver_paragraph{
+    margin: 0px 0px 0px 40px;
+    color: gray;
+    font-family: 'Inter';
+    font-size: 1.2rem;
+}
+
+.our_achivement{
+    /* background-color: red; */
+    /* background-size: cover;
+    background-position: center; */
+    height: 80vh;
+    width: 50vw;
+    /* margin: 0px 50px 0px 150px; */
+}
+.our_achivement1{
+    background-image: url("src/bmw_m3.png");
+     background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 35vw;
+    /* margin: 0px 50px 0px 150px; */
+}
+.achivement_div_flex{
+    display: flex;
+    justify-content: center;
+}
+.our_achivement_heading{
+    padding-left: 20px;
+    color:goldenrod;
+    font-family: 'Inter';
+    
+    font-weight: 900;
+    font-size: 1.9rem;
+    margin: 0px 0px 0px 40px;
+    padding-right: 30px;
+}
+.our_achivement_para{
+    padding-left: 20px;
+    padding-right: 40px;
+    margin: 20px 0px 0px 40px;
+    color: gray;
+    font-family: 'Inter';
+    font-size: 1.2rem;
+}
+.our_achivement_client{
+    background-color: white;
+    box-shadow: 0px 0px 15px 2px #CCA57E;
+    height: 15vh;
+    width: 20vw;
+    margin: 0px 10px 0px 60px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.our_achivement_client1{
+    background-color: white;
+    box-shadow: 0px 0px 15px 2px #CCA57E;
+    height: 15vh;
+    width: 20vw;
+    margin: 0px 10px 0px 5px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.our_achivement_client h3{
+    color:goldenrod;
+    font-family: 'Inter';
+    font-size: 1.9rem;
+    font-weight: bold;
+    
+}
+.our_achivement_client p{
+    color: gray;
+    font-family: 'Inter';
+    font-size: 1.2rem;
+}
+
+.our_achivement_client1 h3{
+    color:goldenrod;
+    font-family: 'Inter';
+    font-size: 1.9rem;
+    font-weight: bold;
+    
+}
+.our_achivement_client1 p{
+    color: gray;
+    font-family: 'Inter';
+    font-size: 1.2rem;
+}
+.client_achivement_align{
+    display: flex;
+}
+
+
+
+
+
+/*----------------------------------------------------------------*/
+
+
+
+.lastinfo-line{
+    width: 1000px;
+    color:gray;
+    border-width: 2px;
+    border-style: solid;
+}
+.lastinfo-div{
+    text-align: center;
+    color:goldenrod;
+}
+.lastinfo-para{
+    font-weight: bold;
+    padding: 15px;
+    font-family: Roboto;
+}
+lastinfo-para-owner{
+    font-weight: bold;
+    text-align: end;
+    font-family: Roboto;
+
+}
+.last-div-background{
+    background-color: black;
+    height: 95vh;
+}
+
+
+.why-buy-from-us-heading{
+    color: goldenrod;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.why-buy-from-us-div{
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+    width: 70vh;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 8px;
+}
+.why-buy-from-us
+{
+    background-color: black;
+    height: 85vh
+}
+.why-buy-from-us-image{
+    height: 35vh;
+}
+.why-buy-from-us-text{
+    font-family: sans-serif;
+    color:goldenrod;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.why-buy-from-us-para{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.what-client-says-heading{
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+
+}
+.what-client-says-div{
+    text-align: center;
+    padding: 20px;
+}
+.what-client-says-background{
+    background-color: white;
+    height: 55vh;
+}
+.what-client-says-para{
+    font-weight: bold;
+    font-family: Roboto;
+    padding-top: 30px;
+    font-size: 20px;
+
+}
+.star-image{
+    padding-top: 35px;
+    
+}
+.quote_before{
+    float: left;
+    padding-left: 250px;
+}
+.quote_after{
+    float: right;
+    padding-right: 240px;
+}
+.what-client-says-name{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    padding-left: 230px;
+}
+.col{
+    color:white;
+}
+.colheading{
+    color:goldenrod;
+}
+.last-padd{
+    padding: 70px;
+}
+.img-last{
+    height: 5vh;
+    background-size: cover;
+}
+.last{
+    padding-left: 100px;
+}
+.Explore-car-div{
+    background-color: black;
+    height: 80vh;
+}
+.last-heading{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    color:goldenrod;
+    font-family: Roboto;
+}
+@keyframes blink {
+    0% { opacity: 1;}
+    50% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.blinking-text:hover{
+    animation: blink 1s infinite;
+}

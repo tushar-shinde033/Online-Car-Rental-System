@@ -1,0 +1,515 @@
+@charset "ISO-8859-1";
+
+body{
+    margin: 0px;
+    min-height: 100vh;
+}
+.Ts{
+    background-color:#FFF8F1;
+}
+
+.logo_image_nav{
+    height: 8vh;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 32px;
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar1 a{
+    position: relative;
+    font-size: 18px;
+    color: goldenrod ;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 45px;
+}
+.navbar1 a::before{
+    content: '';
+    position: absolute;
+    top:100%;
+    left:0;
+    width:0;
+    height:2px;
+    background: goldenrod;
+    transition: .3s;
+}
+.navbar1 a:hover::before {
+    width: 100%;
+    text-decoration: none;
+}
+
+
+
+.cp_button{
+    padding: 6px 16px;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid var(--yellow);
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.cp_button2{
+    padding: 6px 16px;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid var(--yellow);
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.luxury-car-container{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 20px;
+    position: relative;
+    /* box-shadow: 0px 0px 10px 1px black; */
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+}
+.bently_heading{
+    margin-left: 40px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: 'Inter';
+}
+.bentley_price{
+    margin-left: 40px;
+    padding-top: 5px;
+    font-weight: 600;
+    font-family: 'Inter';
+}
+.bentley_para{
+    margin-left: 40px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+.bentley_para1{
+    margin-left: 5px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+#slider-container {
+    width: 45vw;
+    height: 45vh;
+    /* margin: auto; */
+    overflow: hidden;
+}
+
+#image-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+#image-slider img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 45vw;
+    border-radius: 10px;
+    
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.align-div-cao{
+    display: flex;
+    margin: 80px;
+
+}
+
+.slider-btn {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+}
+
+#prev-btn {
+    left: 62px;
+}
+
+#next-btn {
+    right: 680px;
+}
+.car_name_heading{
+    color: #162f62;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 2.3rem;
+
+}
+.car_info_div{
+    padding:20px 0px 0px 60px;
+   
+}
+.car_info_inside_div{
+    display: flex;
+   
+
+}
+.car_info_inside_div_para{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    color: #162f62;
+    margin: 7px 0px 0px 15px;
+
+}
+.car_info_div_logo_align{
+    display: flex;
+}
+
+
+.home-sci {
+    margin: 20px 0 10px;
+    display: flex;
+  }
+  
+  .home-sci img {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #162f62;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .5s;
+    padding: 5px;
+  }
+  
+  .home-sci img:hover {
+    background: goldenrod;
+    color: #fff;
+    border-color: goldenrod;
+    box-shadow: 0 0 10px goldenrod;
+  }
+  .car_name_para{
+    font-family: 'Inter';
+  }
+  .car_info_inside_div_para1{
+    font-family: 'Inter';
+    font-size: 18px;
+    /* color: ; */
+    margin: 7px 0px 0px 15px;
+  }
+  
+
+
+
+  .FEATURES_OPTIONS h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Inter';
+    margin-left: 60px;
+    text-decoration:underline 2px goldenrod;
+}
+
+.note_para{
+    color:red;font-family:'Inter';font-weight: 600;margin-right: 350px;padding: 0px;
+}
+
+.features_groups{
+    text-align: center;
+    padding-left: 140px;
+    padding-top: 40px;
+
+}
+
+.features_align_paragraph
+{
+    color:#041521;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.features_align_heading4{
+    color: goldenrod;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter';
+}
+
+
+.features_align{
+    display: flex;
+    /* margin-left: 30px; */
+    padding: 0px 40px 0px 40px;
+}
+.features_groups2{
+    text-align: center;
+    /* padding-left: 150px; */
+    margin-left: 125px;
+    padding-top: 40px;
+}
+.features_groups3{
+    text-align: center;
+     margin-left: 165px;
+    padding-top: 40px;
+}
+.features_groups4{
+    text-align: center;
+     margin-left: 185px;
+    padding-top: 40px;
+}
+
+
+.features_groups2_fuel{
+    text-align: center;
+     margin-left: 200px;
+    padding-top: 40px;
+}
+.features_groups2_transmission
+{
+    text-align: center;
+    margin-left: 140px;
+   padding-top: 40px;
+}
+.features_groups3_ground_clearance
+{
+    text-align: center;
+    margin-left: 155px;
+   padding-top: 40px;
+}
+.features_groups4_power{
+    text-align: center;
+    margin-left: 230px;
+   padding-top: 40px;
+}
+.features_groups4_engine{
+    text-align: center;
+    margin-left: 215px;
+   padding-top: 40px;
+}
+
+.Booking{
+    background-color: #CCA57E;
+    height: 100vh;
+    width: 80vw;
+    /* margin: 0 50px; */
+    box-shadow: 0px 0px 15px 2px #CCA57E;
+    padding: 30PX;
+    margin-left: 140px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 90px;
+    justify-content: center;
+    text-align: center;
+}
+.Booking h3{
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Inter';
+}
+.Booking hr{
+        /* width: 1000px; */
+        color:black;
+        border-width: 2px;
+        border-style: solid;
+}
+.booing_align{
+    display: flex;
+    justify-content: space-between;
+}
+.input_booking
+{
+    margin: 20px 20px;
+    padding-left: 15px;
+    width: 300px;
+    height: 5vh;
+}
+.input_booking_button{
+    margin: 50 20px;
+    padding-left: 13px;
+    width: 300px;
+    height: 4.5vh;
+    background-color: #041521;
+    color: #fff;
+    border-radius: 15px;
+    outline: none;
+    font-weight: 600;
+    height: 6vh;
+    /* font-family: 'Inter'; */
+    font-size: 18px;
+}
+.features_image{
+height: 5vh;
+}
+
+
+
+/*----------------------------------------------------------------*/
+
+
+
+.lastinfo-line{
+    width: 1000px;
+    color:gray;
+    border-width: 2px;
+    border-style: solid;
+}
+.lastinfo-div{
+    text-align: center;
+    color:goldenrod;
+}
+.lastinfo-para{
+    font-weight: bold;
+    padding: 15px;
+    font-family: Roboto;
+}
+lastinfo-para-owner{
+    font-weight: bold;
+    text-align: end;
+    font-family: Roboto;
+
+}
+.last-div-background{
+    background-color: black;
+    height: 95vh;
+}
+
+
+.why-buy-from-us-heading{
+    color: goldenrod;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.why-buy-from-us-div{
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+    width: 70vh;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 8px;
+}
+.why-buy-from-us
+{
+    background-color: black;
+    height: 85vh
+}
+.why-buy-from-us-image{
+    height: 35vh;
+}
+.why-buy-from-us-text{
+    font-family: sans-serif;
+    color:goldenrod;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.why-buy-from-us-para{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.what-client-says-heading{
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+
+}
+.what-client-says-div{
+    text-align: center;
+    padding: 20px;
+}
+.what-client-says-background{
+    background-color: white;
+    height: 55vh;
+}
+.what-client-says-para{
+    font-weight: bold;
+    font-family: Roboto;
+    padding-top: 30px;
+    font-size: 20px;
+
+}
+.star-image{
+    padding-top: 35px;
+    
+}
+.quote_before{
+    float: left;
+    padding-left: 250px;
+}
+.quote_after{
+    float: right;
+    padding-right: 240px;
+}
+.what-client-says-name{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    padding-left: 230px;
+}
+.col{
+    color:white;
+}
+.colheading{
+    color:goldenrod;
+}
+.last-padd{
+    padding: 70px;
+}
+.img-last{
+    height: 5vh;
+    background-size: cover;
+}
+.last{
+    padding-left: 100px;
+}
+.Explore-car-div{
+    background-color: black;
+    height: 80vh;
+}
+.last-heading{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    color:goldenrod;
+    font-family: Roboto;
+}
+@keyframes blink {
+    0% { opacity: 1;}
+    50% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.blinking-text:hover{
+    animation: blink 1s infinite;
+}

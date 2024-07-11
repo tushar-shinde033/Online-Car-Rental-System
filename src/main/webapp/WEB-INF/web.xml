@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>Car_Rental</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>gls.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FrontServlet</display-name>
+    <servlet-name>FrontServlet</servlet-name>
+    <servlet-class>tushar.FrontServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FrontServlet</servlet-name>
+    <url-pattern>/FrontServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>booking_details</display-name>
+    <servlet-name>booking_details</servlet-name>
+    <servlet-class>tushar.booking_details</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>booking_details</servlet-name>
+    <url-pattern>/booking_details</url-pattern>
+  </servlet-mapping>
+</web-app>

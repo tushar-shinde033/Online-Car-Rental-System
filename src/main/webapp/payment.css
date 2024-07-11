@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.pay_image img{
+    height: 70vh;
+    margin-left:490px;
+    margin-right:150px;
+}
+
+.pay_image p{
+    margin-left:570px;
+    margin-right:150px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.pay_image input{
+    margin-left:590px;
+    margin-right:150px;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    /* font-weight: bold; */
+
+}
