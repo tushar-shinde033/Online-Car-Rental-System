@@ -529,7 +529,7 @@
           <a href="#">
             <div class="d-flex flex-row">
               <img src="src/facebook.png" class="img-last" />
-              <h5 class="blinking-text last-heading">facebook</h5>
+              <h5 class="blinking-text last-heading">Facebook</h5>
             </div>
           </a>
         </div>
